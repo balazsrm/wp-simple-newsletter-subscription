@@ -1,0 +1,26 @@
+
+#newsletter-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+#newsletter-modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter-modal label {
+    margin-bottom: 5px;
+}
+
+#newsletter-modal input[type="text"],
+#newsletter-modal input[type="email"],
+#newsletter-modal input[type="submit"] {
+    margin-bottom: 10px;
+}
