@@ -24,7 +24,7 @@ Installation
 Usage
 -----
 
--   **Frontend Subscription Modal:** The modal is triggered by clicking an element with a special HTML class. Customize this class in the plugin's JavaScript file.
+-   **Frontend Subscription Modal:** The modal is triggered by clicking an element with a special HTML class: `open-newsletter-modal`. Customize this class in the plugin's JavaScript file.
 -   **View Subscribers:** Access the subscriber list from the admin menu under 'Newsletter Subscribers'.
 
 Customization
